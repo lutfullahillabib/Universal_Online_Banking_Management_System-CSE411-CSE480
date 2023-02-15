@@ -1,0 +1,81 @@
+Used MD5 Encryption method in database password & make the web-app Responsive.
+Also, Used Session in every possible step.
+Used Regular expression to control input of forms.
+And Each input, option, negative value and possible all error or garbage/fault input is handled.
+Other: After every successful or unsuccessful process or for error every necessary notification will show below.
+...
+#Some important - Links...
+
+1. Database = http://localhost/phpmyadmin/ = http://localhost/phpmyadmin/db_structure.php?server=1&db=ubanking
+
+2. Home = http://localhost/UniversalBank/ = http://localhost/UniversalBank/index.php
+
+3. Super Admin = http://localhost/UniversalBank/admin-panel/login.php
+
+#Super Admin [email/username, password] = super-admin = Superadmin123
+
+# All users info = [email/username, password, (account number/id)]
+
+1. Sonali Bank = (active) - no user
+
+2. Rupali Bank = 
+	a) labib@gmail.com = Labib1234 = ( 3266747851)
+	b) shopnil@gmail.com = Shopnil1234 = ( 1294837799 )
+
+3. Janata Bank = 
+	a) hridoy@gmail.com = Hridoy1234 = ( 2342245191 )
+	b) ww@gmail.com = Wonder1234 = ( 1883385667 )
+4. Agrani Bank = 
+	a) eidul@gmail.com = Eidul1234 = ( 4192199557 )
+
+New-Reg = 
+{
+4. Agrani Bank = 
+	b) alif@gmail.com = Alif1234 = ( 8979462412 )
+
+5. Pubali Bank = 
+	a) r10@gmail.com = Ronaldinho1234 = ( 5868485682 )
+
+6. World Bank = 
+	a) messi@gmail.com = Messi1234 = ( 7953493769 )
+
+7. Swiss Bank = 
+	a) mbappe@gmail.com = Mbappe1234 = ( 2282156822 )
+
+8. Bangladesh Bank = (inactive) - no user
+9. Bank of China = (inactive) - no user
+}
+
+#Bank Admins/Managers = [email/username, password,, {Bank Personal email for user/customer}]
+
+1. Sonali Bank = sonalibank@ubbl.com 
+    = Bank1234 = { sonalibank@gmail.com }
+
+2. Rupali Bank = rupalibank@ubbl.com 
+   = Bank2345 = { rupalibank@gmail.com } 
+
+3. Janata Bank = janatabank@ubbl.com 
+   = Bank3456 = { janatabank@gmail.com }
+
+4. Agrani Bank = agranibank@ubbl.com 
+   = Bank4567 = { agranibank@gmail.com }
+
+5. Pubali Bank = pubalibank@ubbl.com 
+   = Bank5678 = { pubalibank@gmail.com }
+
+...
+New-Reg = 
+{
+6. World Bank = wb@ubbl.com 
+   = World1234 = { worldbank@gmail.com }
+
+7. Swiss Bank = swiss@ubbl.com 
+   = Swiss1234 = { swissbank@gmail.com }
+
+8. Bangladesh Bank (inactive) = bb@ubbl.com 
+   = Bangladesh1234 = { bangladeshbank@gmail.com }
+
+9. Bank of China (inactive) = china@ubbl.com 
+   = China1234 = { china@gmail.com }
+}
+
